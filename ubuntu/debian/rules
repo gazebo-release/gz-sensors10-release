@@ -9,8 +9,8 @@ override_dh_auto_configure:
 	    -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
 override_dh_install:
-	install -d debian/tmp/usr/share/gz/gz-sensors9/
-	install ./obj-*/*.tag.xml debian/tmp/usr/share/gz/gz-sensors9/
+	install -d debian/tmp/usr/share/gz/gz-sensors10/
+	install ./obj-*/*.tag.xml debian/tmp/usr/share/gz/gz-sensors10/
 	dh_install --
 	# need to remove files present in components
 	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/AirPressure*.hh
