@@ -1,2 +1,2 @@
-usr/lib/*/lib*-sensors[0-99].so.*
+usr/lib/*/lib*-sensors.so.*
 usr/share/gz/*-sensors*/*

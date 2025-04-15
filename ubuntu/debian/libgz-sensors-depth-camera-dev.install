@@ -1,5 +1,5 @@
 usr/include/*/sensors*/*/sensors/depth_camera/*
 usr/include/*/sensors*/*/sensors/DepthCamera*.hh
-usr/lib/*/cmake/*-sensors[0-99]-depth_camera/*
-usr/lib/*/lib*-sensors[0-99]-depth_camera.so
-usr/lib/*/pkgconfig/*-sensors[0-99]-depth_camera.pc
+usr/lib/*/cmake/*-sensors-depth_camera/*
+usr/lib/*/lib*-sensors-depth_camera.so
+usr/lib/*/pkgconfig/*-sensors-depth_camera.pc

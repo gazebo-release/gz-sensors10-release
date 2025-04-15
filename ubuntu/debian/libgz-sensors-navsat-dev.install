@@ -1,5 +1,5 @@
 usr/include/*/sensors*/*/sensors/navsat/*
 usr/include/*/sensors*/*/sensors/NavSat*.hh
-usr/lib/*/cmake/*-sensors[0-99]-navsat/*
-usr/lib/*/lib*-sensors[0-99]-navsat.so
-usr/lib/*/pkgconfig/*-sensors[0-99]-navsat.pc
+usr/lib/*/cmake/*-sensors-navsat/*
+usr/lib/*/lib*-sensors-navsat.so
+usr/lib/*/pkgconfig/*-sensors-navsat.pc

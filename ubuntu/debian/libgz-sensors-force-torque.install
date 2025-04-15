@@ -1,1 +1,1 @@
-usr/lib/*/lib*-sensors[0-99]-force_torque.so.*
+usr/lib/*/lib*-sensors-force_torque.so.*
