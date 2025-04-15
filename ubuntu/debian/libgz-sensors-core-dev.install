@@ -1,6 +1,6 @@
-usr/include/*/sensors/gz/sensors/detail/*.hh
-usr/include/*/sensors/*/sensors.hh
-usr/include/*/sensors/*/sensors/*.hh
+usr/include/*/sensors[0-99]/gz/sensors/detail/*.hh
+usr/include/*/sensors[0-99]/*/sensors.hh
+usr/include/*/sensors[0-99]/*/sensors/*.hh
 usr/lib/*/lib*-sensors.so
 usr/lib/*/pkgconfig/*-sensors.pc
 usr/lib/*/cmake/*-sensors/*-sensors*
