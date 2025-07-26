@@ -650,3 +650,19 @@ Description: Gazebo Sensors classes and functions for robot apps - Metapackage
  designed to rapidly develop robot applications.
  .
  Metapackage for all the -dev files
+
+Package: gz-jetty-sensors
+Depends: libgz-sensors10-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: gz-jetty-sensors-core
+Depends: libgz-sensors10-core-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
