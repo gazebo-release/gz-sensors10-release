@@ -1,3 +1,9 @@
+gz-sensors10 (10.0.0~pre1-1~noble) noble; urgency=medium
+
+  * gz-sensors10 10.0.0~pre1-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Tue, 26 Aug 2025 22:26:30 +0000
+
 gz-sensors10 (9.999.999-1~noble) noble; urgency=medium
 
   * Stub to be removed after first entry
