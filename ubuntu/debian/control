@@ -666,3 +666,20 @@ Priority: optional
 Section: metapackages
 Description: alias package
  Provides a package for Jetty without exposing the version number.
+
+Package: libgz-jetty-sensors-dev
+Depends: libgz-sensors10-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: libgz-jetty-sensors-core-dev
+Depends: libgz-sensors10-core-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
