@@ -1,3 +1,9 @@
+gz-sensors10 (10.0.2-1~noble) noble; urgency=medium
+
+  * gz-sensors10 10.0.2-1 release
+
+ -- Carlos Agüero <caguero@honurobotics.com>  Thu, 23 Jul 2026 22:34:29 +0200
+
 gz-sensors10 (10.0.1-1~noble) noble; urgency=medium
 
   * gz-sensors10 10.0.1-1 release
