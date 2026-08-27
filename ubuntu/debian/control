@@ -351,6 +351,38 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib lidar
  .
  Shared library for lidar sensor
 
+Package: libgz-sensors10-cpu-lidar-dev
+Architecture: any
+Section: libdevel
+Depends: libgz-cmake5-dev,
+         libgz-common7-events-dev,
+         libgz-math9-dev,
+         libgz-msgs12-dev,
+         libgz-transport15-core-dev,
+         libgz-sensors10-core-dev (= ${binary:Version}),
+         libgz-sensors10-lidar-dev (= ${binary:Version}),
+         libsdformat16-dev,
+         libgz-sensors10-cpu-lidar (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Gazebo Sensors classes and functions for robot apps - Dev files cpu-lidar
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Development files for cpu-lidar sensor
+
+Package: libgz-sensors10-cpu-lidar
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Gazebo Sensors classes and functions for robot apps - Lib cpu-lidar
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Shared library for cpu-lidar sensor
+
 Package: libgz-sensors10-gpu-lidar-dev
 Architecture: any
 Section: libdevel
@@ -629,6 +661,7 @@ Depends: libgz-sensors10-core-dev (= ${binary:Version}),
          libgz-sensors10-altimeter-dev (= ${binary:Version}),
          libgz-sensors10-boundingbox-camera-dev (= ${binary:Version}),
          libgz-sensors10-camera-dev (= ${binary:Version}),
+         libgz-sensors10-cpu-lidar-dev (= ${binary:Version}),
          libgz-sensors10-depth-camera-dev (= ${binary:Version}),
          libgz-sensors10-dvl-dev (= ${binary:Version}),
          libgz-sensors10-force-torque-dev (= ${binary:Version}),
