@@ -1,3 +1,9 @@
+gz-sensors10 (10.1.1-1~resolute) resolute; urgency=medium
+
+  * gz-sensors10 10.1.1-1 release
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Tue, 01 Sep 2026 20:59:03 +0000
+
 gz-sensors10 (10.1.0-4~resolute) resolute; urgency=medium
 
   * gz-sensors10 10.1.0-4 release
